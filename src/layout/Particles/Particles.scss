@@ -1,0 +1,14 @@
+#tsparticles{
+    background: transparent;
+    z-index: -1;
+
+
+    .tsparticles-canvas-el{
+        position: absolute !important;
+        top: -10% !important;
+        left: auto;
+        height: 95% !important;
+
+    z-index: -1 !important;
+    }
+}

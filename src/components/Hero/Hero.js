@@ -1,10 +1,13 @@
 import React from "react";
+import Particless from "../../layout/Particles/Particles";
 import "./Hero.scss";
 
 function Hero() {
   return (
-    <div id="hero">
-      <div className="hero-content">
+    <div id ="hero-component"  >
+      <Particless/>
+   <div id="hero" className="container">
+   <div className="hero-content">
         <h1>
           Create a one-page site to showcase your incredible works and{" "}
           <span className="text-pink">get more clients.</span>
@@ -46,6 +49,8 @@ function Hero() {
           <img src="/assets/frame_1.jpg" alt="" />
         </div>
       </div>
+   
+   </div>
     </div>
   );
 }

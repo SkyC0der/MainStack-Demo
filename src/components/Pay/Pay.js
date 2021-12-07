@@ -1,7 +1,27 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Pay.scss";
 
 function Pay() {
+  const [count, setCount] = useState(1);
+  const increment = (s) => {
+    s.preventDefault()
+    setCount(prevCount =>  prevCount + 1 );
+    if (count < 0){
+      return 0
+    }
+  };
+
+  //Create handleDecrement event handler
+  const decrement = (s) => {
+    s.preventDefault()
+    setCount(prevCount =>  prevCount - 1 );
+
+    
+  };
+
+
+
+  let res = 10 * count;
   return (
     <div id="pay">
       <div className="pay-1">
@@ -18,6 +38,19 @@ function Pay() {
         <div className="form card">
           <form action="#">
             <h4>Buy Marvellous A Coffee</h4>
+            <div className="slogan">
+              <div>
+
+              <img src="/assets/coffee.png" alt="" />
+              <span className="text-muted">$10 (each) * {count} = ${res} (total)</span>
+              </div>
+              <div className="range">
+                <button onClick={decrement} className="minus">-</button>
+                <span className="qty">{count}</span>
+
+                <button onClick={increment} className="plus">+</button>
+              </div>
+            </div>
             <input type="email" name="Email" placeholder="Email"  />
             <input type="email" placeholder= "Your Name (Optional)" name="Email"  />
             <textarea
@@ -27,8 +60,11 @@ function Pay() {
               rows="4"
             ></textarea>
             <button className="buy-btn">
-              Buy <strong>$10</strong> coffee
+              Buy <strong>${res}</strong> coffee
             </button>
+            <div className="mx-auto text-center total">
+              <span><img src="/assets/coffee.png" alt="" /><strong>120</strong> coffee received</span>
+            </div>
           </form>
         </div>
       </div>

@@ -11,16 +11,18 @@ import Navbar from './layout/Navbar/Navbar';
 
 function App() {
   return (
-    <div id="main" className ="container">
+    <div id="main" >
       <Navbar/>
       <Hero/>
-      <Info/>
+     <div className="container">
+     <Info/>
       <Info2/>
       <Team/> 
       <Social/>
       <Media/>
 
       <Pay/>
+     </div>
     </div>
   );
 }

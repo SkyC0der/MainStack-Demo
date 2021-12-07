@@ -41,10 +41,23 @@
         .btn-signin{
             background: transparent;
             border: 1px solid #020409;
+
+           
+        }
+        .btn-signin:hover{
+            background: #020409;
+            color: #fff;
+            transition: background .5s;
         }
         .btn-signup{
             background: #020409;
             color: #fff;
+        }
+        .btn-signup:hover{
+            background: rgba(255, 255, 255, 0);
+            color: #020409;
+            border: 1px solid #020409;
+            transition: background .75s;
         }
     }
 }

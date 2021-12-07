@@ -31,6 +31,11 @@
       background-color: #fff;
       width: 140px;
     }
+    .btn:hover{
+      background: #020409;
+      color: #fff;
+      transition: background .5s;
+  }
   }
   .info-img {
     width: 60%;

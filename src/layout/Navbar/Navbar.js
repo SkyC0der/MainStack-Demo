@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.scss'
 function Navbar() {
     return (
-        <div id = "navbar">
+        <div id = "navbar" className="container">
             <div className="navbar-list">
                 <div className="navbar-logo">
                     <img src="/assets/logo_mainstack.svg" alt="" />

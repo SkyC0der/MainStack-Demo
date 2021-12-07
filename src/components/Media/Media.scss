@@ -37,6 +37,14 @@
         width: 140px;
         color: #fff;
       }
+      .btn:hover{
+        background: transparent;
+        color: #020409;
+        border: 1px solid #020409;
+        width: 142px;
+        height: auto;
+        transition: background .5s;
+    }
     }
     .media-img {
       display: flex;
