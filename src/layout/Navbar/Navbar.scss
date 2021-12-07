@@ -1,0 +1,50 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    ul{
+        list-style-type: none;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+        margin-bottom: 0;
+
+        a{
+            text-decoration: none;
+            color: #000;
+            font-weight: 500;
+        }
+    }
+
+    .navbar-list{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+    }
+    
+    .navbar-btns{
+        width: 29%;
+        display: flex;
+        justify-content: flex-end;
+        button{
+            border: 0;
+            border-radius: 1.5rem;
+            padding: .75rem 1.5rem;
+            font-weight: 500;
+
+            margin: 1rem;
+        }
+
+        .btn-signin{
+            background: transparent;
+            border: 1px solid #020409;
+        }
+        .btn-signup{
+            background: #020409;
+            color: #fff;
+        }
+    }
+}

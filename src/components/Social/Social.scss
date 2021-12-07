@@ -1,0 +1,64 @@
+#social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 4rem 0 2rem 0;
+  grid-gap: 2.5rem;
+  .social-card {
+    padding: 2rem 3rem;
+    border-radius: 1.5rem;
+
+    background-color: #fff;
+  }
+
+  .text-red {
+    color: #f44336;
+  }
+  .text-green{
+    color: #00D95F;
+  }
+  .text-pink{
+      color: #FA233B;
+  }
+  .text-blue{
+      color: #19B2E5;
+  }
+  h4 {
+    font-size: 19px;
+  }
+  h4,
+  p {
+    font-weight: 700;
+  }
+
+  p {
+    color: #6f778a;
+    margin: 1rem 0;
+    font-size: 16px;
+    line-height: 1.65;
+    .text-dark {
+      color: #020409;
+    }
+  }
+
+  .social-logo {
+    margin: 1rem 0;
+  }
+
+  .iphone-bg {
+    text-align: center;
+    margin-top: 6rem;
+    /* position: absolute; */
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    img {
+      width: 100%;
+      margin-bottom: -2rem;
+      margin-top: 3rem;
+      text-align: center;
+    }
+  }
+}

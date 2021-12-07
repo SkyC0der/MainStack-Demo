@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'PlusJakartaDisplay';
+  src: url('./assets/font/PlusJakartaDisplay-Bold.otf') format('otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+
+
+  background-color: #F2F5FA;
+  -moz-osx-font-smoothing: grayscale;
+}
+

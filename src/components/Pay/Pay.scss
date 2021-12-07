@@ -1,0 +1,119 @@
+#pay {
+  display: flex;
+  justify-content: space-between;
+  align-items: normal;
+  margin: 2rem 0;
+  .pay-1,
+  .pay-2 {
+    background-color: #fff;
+    border-radius: 1.5rem;
+  }
+  .pay-1 {
+    width: 40%;
+      .content p{
+        font-size: 19px;
+      }
+    padding: 3rem;
+    font-weight: 700;
+    .text-purple {
+      color: #4360fd;
+      margin-bottom: 2rem;
+      font-weight: 700;
+    }
+    .card {
+      filter: drop-shadow(0px 6px 12px rgba(195, 195, 210, 0.2));
+      padding: 1.75rem;
+      border-radius: 1.5rem;
+      margin-top: 2rem;
+      h4 {
+        font-weight: 700;
+        margin-bottom: 1.25rem;
+        margin-top: 0.5rem;
+        font-size: 1.25rem;
+      }
+
+      input,
+      textarea {
+        border: 0;
+        background-color: #DDE3F0;
+        color: #fff;
+        padding: 1rem;
+        border-radius: 0.75rem;
+        width: 100%;
+        margin: 1rem 0;
+      }
+
+      textarea{
+        resize: none;
+      }
+
+      .buy-btn {
+        width: 100%;
+        border: 0;
+        background-color: #4360fd;
+        padding: 1rem;
+        border-radius: 1rem;
+        color: #fff;
+      }
+    }
+  }
+  .pay-2 {
+    width: 55%;
+    padding: 3rem;
+
+    .content {
+      font-weight: 700;
+    }
+    .card {
+      filter: drop-shadow(0px 6px 12px rgba(195, 195, 210, 0.2));
+      padding: 1.75rem;
+      border-radius: 1.5rem;
+      .event-register {
+        width: 100%;
+        border: 0;
+        background-color: #f7604c;
+        padding: 1rem;
+        border-radius: 1rem;
+        color: #fff;
+      }
+
+      img {
+        height: 150px;
+        object-fit: cover;
+        border-radius: 1rem;
+      }
+
+      .card-body {
+        padding: 0;
+        margin: 1rem 0 0 0;
+      }
+      .card-body p {
+        color: #797d87;
+        font-size: 15px;
+      }
+    }
+    .content p {
+      color: #020409;
+      font-size: 19px;
+      margin-bottom: 3rem;
+    }
+    h4 {
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+      margin-top: 0.5rem;
+    }
+    .text-blue {
+      color: #19b2e5;
+      font-weight: 600;
+    }
+    .text-muted {
+      font-weight: 700;
+      color: #797d87;
+    }
+    .text-orange {
+      color: #fe4110;
+      font-weight: 700;
+      margin: 0 0 2rem 0;
+    }
+  }
+}
