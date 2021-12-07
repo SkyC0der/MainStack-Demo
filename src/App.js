@@ -7,12 +7,12 @@ import Team from './components/Team/Team';
 import Pay from './components/Pay/Pay';
 import Media from './components/Media/Media';
 
-import Navbar from './layout/Navbar/Navbar';
+import Navbar2 from './layout/Navbar/Navbar';
 
 function App() {
   return (
     <div id="main" >
-      <Navbar/>
+      <Navbar2/>
       <Hero/>
      <div className="container">
      <Info/>

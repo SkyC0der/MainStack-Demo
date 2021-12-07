@@ -61,4 +61,18 @@
       text-align: center;
     }
   }
+  @media screen and (max-width:600px) {
+    grid-template-columns: 1fr;
+
+    .social-card{
+      padding: 2rem;
+    }
+    .social-logo img{
+      width: 40px;
+      height: 40px;
+    }
+    h4{
+      font-size: 19px;
+    }
+  }
 }

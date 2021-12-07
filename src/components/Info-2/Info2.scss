@@ -17,4 +17,20 @@
     p{
         color: #505A73;
     }
+    @media screen and (max-width:600px) {
+        flex-direction: column;
+        .info-container{
+          width: 90%;
+          margin: 1rem 0;
+
+          h2{
+              font-size: 1.75rem;
+              margin: 0 0 1rem 0;
+          }
+
+          p{
+              font-size: 15px;
+          }
+        }
+      }
 }

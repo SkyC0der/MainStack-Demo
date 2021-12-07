@@ -42,7 +42,7 @@ function Hero() {
         </div>
       </div>
       <div className="hero-img">
-        <div className="hero-img-box">
+        <div className="hero-img-box first">
           <img src="/assets/frame_2.jpg" alt="" />
         </div>
         <div className="hero-img-box">

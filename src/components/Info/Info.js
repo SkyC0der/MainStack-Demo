@@ -13,7 +13,7 @@ function Info() {
                 <button className="btn">Get Started</button>
             </div>
             <div className="info-img">
-                <div className="img-info">
+                <div className="img-info first">
                     <img src="/assets/image_16.png" alt="features" />
                 </div>
                 <div className="img-info">

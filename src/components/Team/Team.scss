@@ -52,4 +52,27 @@
       flex-direction: column;
     }
   }
+
+  @media screen and (max-width:600px) {
+    padding: 2rem;
+    flex-direction: column;
+    h2{
+      font-size: 1.75rem;
+    }
+    p{
+      font-size: 15px;
+    }
+    .team-content{
+      width: 100%;
+      margin: 2rem 0;
+    }
+
+    .team-grid-gallery{
+      width: 90%;
+
+      .team-img-container{
+        margin-right: 1rem;
+      }
+    }
+  }
 }
